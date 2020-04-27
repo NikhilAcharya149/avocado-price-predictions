@@ -3,7 +3,6 @@
 
 # In[20]:
 
-
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 import numpy as np
@@ -14,12 +13,9 @@ import plotly.offline as py
 py.init_notebook_mode()
 get_ipython().run_line_magic('matplotlib', 'inline')
 
-
 # In[6]:
 
-
 df = pd.read_csv("C:/Users/nikhi/Desktop/python/avocado.csv")
-
 
 # In[7]:
 
